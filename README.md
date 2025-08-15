@@ -34,19 +34,25 @@ pip install -r requirements.txt
 
 
 ## How to Run
-Clone the repository or download the code.
-Install the requirements using the command above.
-Add your API keys to the script.
-Run the script from your terminal:
-```bash
-python your_script_name.py
+
+1.  Clone the repository or download the code.
+2.  Install the requirements using the command above.
+3.  Add your API keys to the script.
+4.  Run the script from your terminal:
+
+    ```bash
+    python your_script_name.py
+    ```
 
 ## Usage
+
 The assistant will greet you and prompt you to give a command. Speak clearly into your microphone after hearing the "Listening..." prompt.
-Example Commands:
-"What's the time?"
-"What's the date?"
-"Search Wikipedia for Albert Einstein."
-"Play music."
-"Open YouTube."
-"Exit."
+
+### Example Commands:
+
+-   "What's the time?"
+-   "What's the date?"
+-   "Search Wikipedia for Albert Einstein."
+-   "Play music."
+-   "Open YouTube."
+-   "Exit."
