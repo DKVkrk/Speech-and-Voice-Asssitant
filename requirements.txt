@@ -1,0 +1,11 @@
+pyttsx3
+SpeechRecognition
+wikipedia
+webbrowser
+pyautogui
+pyjokes
+requests
+openai
+pywhatkit
+pytube
+youtube-search-python
