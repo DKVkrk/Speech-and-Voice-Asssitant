@@ -1,6 +1,6 @@
 # Voice Assistant
 
-This is a Python-based voice assistant that can perform a wide range of tasks using voice commands. It's built on several popular Python libraries, including `pyttsx3` for text-to-speech, `speech_recognition` for voice recognition, and `PyPDF2` and `sumy` for PDF summarization.
+This is a Python-based voice assistant that can perform a wide range of tasks using voice commands. It's built on several popular Python libraries, including `pyttsx3` for text-to-speech, `speech_recognition` for voice recognition.
 
 The assistant is designed to be highly interactive and can handle commands for basic functions, web searches, entertainment, and system operations.
 
@@ -30,3 +30,23 @@ You'll need to install the necessary Python libraries. It's recommended to do th
 
 ```bash
 pip install -r requirements.txt
+
+
+
+## How to Run
+Clone the repository or download the code.
+Install the requirements using the command above.
+Add your API keys to the script.
+Run the script from your terminal:
+```bash
+python your_script_name.py
+
+## Usage
+The assistant will greet you and prompt you to give a command. Speak clearly into your microphone after hearing the "Listening..." prompt.
+Example Commands:
+"What's the time?"
+"What's the date?"
+"Search Wikipedia for Albert Einstein."
+"Play music."
+"Open YouTube."
+"Exit."
