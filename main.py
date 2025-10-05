@@ -165,10 +165,6 @@ if __name__ == "__main__":
             query = query.replace("wikipedia", "").strip()
             search_wikipedia(query)
 
-        elif "play music" in query:
-            song_name = query.replace("play music", "").strip()
-            play_music(song_name)
-
         elif "open youtube" in query:
             wb.open("https://www.youtube.com")
 
@@ -189,35 +185,10 @@ if __name__ == "__main__":
         elif "screenshot" in query:
             screenshot()
 
-        elif "tell me a joke" in query:
-            joke = pyjokes.get_joke()
-            speak(joke)
-            print(joke)
-
-        elif "news" in query or "headlines" in query:
-            get_news()
-
-        elif "chat" in query or "ai mode" in query:
-            speak("AI chat mode activated. Ask me anything.")
-            while True:
-                ai_query = takecommand()
-                if ai_query in ["exit", "stop", "quit"]:
-                    speak("Exiting AI mode.")
-                    break
-                elif ai_query:
-                    chat_with_ai(ai_query)
-
-        elif "download video" in query:
-            speak("Which video would you like to download?")
-            video_query = takecommand()
-            if video_query:
-                download_youtube_video(video_query)
 
         elif "send whatsapp message" in query:
             send_whatsapp_message(query)
 
-        elif "summarize pdf" in query or "pdf summary" in query:
-            summarize_pdf()
 
         elif "shutdown" in query:
             speak("Shutting down. Goodbye!")
@@ -232,4 +203,5 @@ if __name__ == "__main__":
         elif "offline" in query or "exit" in query:
             speak("Going offline. Have a good day!")
             break
+
 
